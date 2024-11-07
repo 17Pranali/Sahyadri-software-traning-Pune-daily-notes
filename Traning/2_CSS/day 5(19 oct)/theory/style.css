@@ -1,0 +1,11 @@
+
+ /*The CSS Universal Selector*/
+ * {
+    text-align: center;
+    color: blue;
+    }
+
+    h1, h2, p { /*The CSS Grouping Selector*/
+    text-align: center;
+    color: rgb(17, 91, 55);
+    }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Changed from center to flex-start */
+            height: 100vh;
+            margin: 0; /* Removed the margin-top to center it */
+            padding-top: 50px; /* Adjust this as needed */
+            background-color: #6e6e6f;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .profile {
+            text-align: center;
+            background-color: #fdf5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .profile h1 {
+            font-weight: bold;
+            color: #121010;
+            margin: 0;
+        }
+
+        .profile p {
+            color: #333;
+            margin-top: 5px;
+        }
+
+        .profile .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #1b1b6a;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .profile .button:hover {
+            background-color: #1d1d41;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <img src="./images/pranali.jpg" alt="Profile Picture">
+        <h1>Pranali Kshirsagar</h1>
+        <p>Software Designer and Developer</p>
+        <a href="#" class="button">Follow</a>
+    </div>
+
+</body>
+</html>

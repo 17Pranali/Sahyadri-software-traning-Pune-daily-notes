@@ -1,0 +1,89 @@
+p.uppercase{
+    text-transform: uppercase;
+}
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+p.shadow{
+    text-shadow: 5px 5px rgb(105, 46, 4);
+}
+
+p.shadowP{
+    text-shadow: 3px 3px 3px rgb(105, 46, 4);
+}
+
+p.paragraph{
+    text-indent: 50px;
+}
+p.letterSpacing{
+    letter-spacing: 7px;
+}
+p.letter{
+    letter-spacing: 10px;
+}
+
+p.letterHeight{
+    line-height: 100px;
+}
+p.letterH{
+    line-height: 10px;
+}
+p.WordSpace{
+    word-spacing: 15px;
+}
+p.Words{
+    word-spacing: 50px;
+}
+
+ol.A{
+    list-style-type:armenian;
+}
+
+ol.B{
+    list-style-type:lower-roman ;
+}
+
+ol.c{
+    list-style-type: upper-latin;
+}
+
+ul.A{
+    list-style-type:square;
+}
+
+ul.B{
+    list-style-type: disc;
+}
+ul.c{
+    list-style-type: lower-greek;
+}
+ol.c{
+    list-style-position: inside;
+}
+ul.B{
+    list-style-position: outside;
+}
+
+ol.L{
+    list-style-position: inherit;
+}
+ol.M{
+    list-style-position: initial;
+}
+p.font{
+    font-family: 'Times New Roman', Times, serif;
+}
+p.font1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+p.font2{
+    font-family:'Courier New', Courier, monospace;
+}
+p.font3{
+    font-family:cursive;
+}

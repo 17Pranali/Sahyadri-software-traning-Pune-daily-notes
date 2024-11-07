@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    background-color: #33306e;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.date {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #943423;
+    margin-left: 20px; /* Adds space from the left */
+    max-width: 500px;
+}
+
+.content {
+    text-align: center;
+    padding: 15px;
+    color: #333;
+}
+
+
+
+.main-image {
+    width: 500px;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.content h2 {
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content p {
+    max-width: 500px;
+    margin: 20px auto;
+    color: #111010;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}

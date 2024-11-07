@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Feedback Form</title>
+</head>
+<body>
+    <div class="form-header">
+        <h1>My Feedback Form</h1>
+    </div>
+    <br>
+    
+    <form>
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" placeholder="enter name " required>
+
+        <label for="Mobile">Mobile Number:</label>
+        <input type="tel" id="Mobile" name="Mobile" placeholder="0000000000" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+
+        <fieldset required>
+            <legend>Gender:</legend>
+            <label><input type="radio" name="gender" value="male" > Male</label>
+            <label><input type="radio" name="gender" value="female" > Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+        </fieldset> <br>
+
+
+        <div class="button-group">
+            <button type="button" onclick="alert('Your information is Successfully Submitted')" required>Submit</button>
+            <input type="reset" onclick="alert('Your information is Successfully Resetted')" value="Reset" required>
+        </div>
+    </form>
+</body>
+</html>

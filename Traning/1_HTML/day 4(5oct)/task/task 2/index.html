@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>Registration Form</h2><br>
+    <form style="border: 1px solid #ccc; padding: 20px; border-radius: 8px; background-color: white; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+        <label for="first-name">First Name:</label><br>
+        <br><input type="text" id="first-name" name="first_name"><br>
+
+        <br> <label for="last-name">Last Name:</label><br>
+        <br><input type="text" id="last-name" name="last_name"><br>
+
+        <br><label for="email">Email:</label><br>
+        <br> <input type="email" id="email" name="email"><br>
+
+        <br><label for="password">Password:</label><br>
+<br><input type="password" id="password" name="password"><br>
+
+        <!-- Gender radio buttons -->
+        <br><br><label>Gender:</label>
+        <div><br>
+            <label><input type="radio" name="gender" value="male" required> Male</label><br>
+            <label><input type="radio" name="gender" value="female"> Female</label><br>
+            <label><input type="radio" name="gender" value="other"> Other</label><br>
+        </div>
+
+        <!-- Hobbies checkboxes -->
+        <br><br><label >Hobbies:</label>
+        <div ><br>
+            <label><input type="checkbox" name="hobbies" value="reading"> Reading</label><br>
+            <label ><input type="checkbox" name="hobbies" value="traveling"> Traveling</label><br>
+            <label><input type="checkbox" name="hobbies" value="sports"> Sports</label><br>
+            <label><input type="checkbox" name="hobbies" value="music"> Music</label><br>
+        </div>
+
+        <!-- Country dropdown -->
+        <br><br><label for="country">Country:</label>
+        <select id="country" name="country"><br>
+            <option value="" disabled selected>Select your country</option><br>
+            <option value="India">India</option><br>
+            <option value="usa">United States</option><br>
+            <option value="canada">Canada</option><br>
+            <option value="uk">United Kingdom</option><br>
+            <option value="australia">Australia</option><br>
+        </select><br>
+
+        <br><br><button type="submit" onclick="alert('Your information is Successfully Registered')">Submit</button>
+    </form>
+
+</body>
+</html>

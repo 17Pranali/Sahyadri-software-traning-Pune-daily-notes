@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/images.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+.form-header {
+    text-align: center;
+    background-color: rgba(74, 119, 119, 0.8); 
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.form-header h2 {
+    margin: 0;
+}
+
+.form-header .note {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+form {
+    background-color: rgb(70, 69, 69);
+    border-radius: 10px 10px 10px 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    outline-style: dashed;
+    outline-color: rgb(248, 248, 249);
+    outline-offset: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="password"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+    accent-color: blue;
+}
+
+form button {
+    background-color: #28a745;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+form input[type="reset"] {
+    background-color: #ff9800;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="reset"]:hover {
+    background-color: #e68900;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #fff;
+}

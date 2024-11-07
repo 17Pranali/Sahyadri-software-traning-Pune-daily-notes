@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Simple Form</h2>
+    <form >
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <label for="Mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="Mobile" name="Mobile"><br>
+
+        <label for="password">Enter password</label><br>
+        <input type="password" id="password" name="password"><br>
+
+        <br><input type="submit">
+    </form>
+    <hr>
+    <h2>Using Radio element</h2>
+    <form >
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+         <label for="gender">Select Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+    </form>
+    <hr>
+    <h2>Using Checkbox element</h2>
+    <form>
+    <label>Select Your Skills:</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="sql" name="skills" value="SQL">
+        <label for="sql">SQL</label><br><br>
+
+        <br><input type="submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    <hr>
+    <h2>Using Submit element</h2>
+     <form >
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <label for="Mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="Mobile" name="Mobile"><br>
+
+        <label for="password">Enter password</label><br>
+        <input type="password" id="password" name="password"><br>
+        
+        <br><input type="submit">
+    </form>
+
+    <hr>
+    <h2>Using Reset element</h2>
+     <form >
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <label for="Mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="Mobile" name="Mobile"><br>
+
+        <label for="password">Enter password</label><br>
+        <input type="password" id="password" name="password"><br>
+        
+        <br><input type="submit">
+        <input type="reset" value="Reset">
+    </form>
+    <hr>
+    <h2>Using Select element</h2>
+    <form>
+        <label for="language"> Choose the language :</label>
+            <select id="language" name="language">
+                <option value="English" selected>English</option>
+                <option value="Marathi">Marathi</option>
+                <option value="Hindi">Hindi</option>
+                <option value="German">German</option>
+            </select>
+    </form>
+    <hr>
+
+    <h2>Using Textarea element</h2>
+    <form >
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50">Write your feedback here...</textarea><br><br>
+        
+    </form>
+<hr>
+    <h2>Using button element</h2>
+    <form >
+       <button type="button" onclick="alert('Heyy I am Pranali')">Click Me</button>
+  
+    </form>
+
+<hr>
+<h2>Using Fieldset and legend element</h2>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <label for="Mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="Mobile" name="Mobile"><br>
+
+        <label for="gender">Select Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label>Select Your Skills:</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label><br>
+
+        <label for="language"> Choose the language :</label>
+        <select id="language" name="language">
+            <option value="English" selected>English</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Hindi">Hindi</option>
+            <option value="German">German</option><br><br>
+
+            <br><label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50">Write your feedback here...</textarea><br><br>
+             
+
+
+        <br><input type="submit">
+        <input type="reset" value="Reset">
+        <button type="button" onclick="alert('Your information is Successfully Submitted')">Click Me</button>
+
+
+
+    </fieldset>
+</form>
+
+
+<h2>Using Datalist</h2>
+<p>Flowers</p>
+<input list="Flowers">
+<datalist id="Flowers">
+    <option value="Rose">Rose</option>
+    <option value="Lotus">Lotus</option>
+    <option value="Marigold">Marigold</option>
+    <option value="Chafa">Chafa</option>
+   
+</datalist>
+
+
+<h2>Using varios input element</h2>
+<h3>input date</h3>
+<label for="Date">Enter Your Birth date</label><br>
+<input type="date" id="Date" name="date"><br><hr>
+
+
+<br>
+
+<h3>input File</h3>
+<label for="File">Enter Your Resume</label><br>
+<input type="file" id="File" name="File"><br><hr>
+
+<h3>input Image</h3>
+<label for="image">Show your favourite image</label><br>
+<input type="image" src="./images/background.jpg" alt="image" width="100px" height="100px"><br><hr>
+
+<h3>input week</h3>
+<label for="week">Enter your Birth week</label><br>
+<input type="week" id="week" name="week"><br><hr>
+
+<h3>input Time</h3>
+<label for="Time">Enter your Birth time</label><br>
+<input type="time" id="time" name="time"><br><hr>
+
+<h3>input range</h3>
+<label for="range">Volume</label><br>
+<input type="range" id="range" name="range"><br><hr>
+
+<h3>input search</h3>
+<label for="search">search</label><br>
+<input type="search" id="search" name="search"><br><hr>
+
+<hr>
+
+<h2>readonly and disabled element</h2>
+#readonly<br>
+<label for="Name">Enter Your name : </label> <br>
+<input type="text" id="name" name="name" value="Pranali Vikas Kshirsagar" readonly> <br><br>
+
+#disabled<br>
+<label for="Name">Enter Your name : </label> <br>
+<input type="text" id="name" name="name" value="Pranali Vikas Kshirsagar" readonly> <br><br>
+<hr>
+
+<h2>Size Atrribute</h2>
+<label for="name">Enter name</label><br>
+<input type="text" id="name" size="10"><br>
+
+<label for="mail">Enter mail</label><br>
+<input type="text" id="mail" size="20"><br>
+
+<hr>
+
+<h2>maxlength</h2>
+<label for="Mobile">Enter mobile Number</label><br>
+<input type="tel" id="Mobile" maxlength="10"><br>
+
+<hr>
+
+<h2>minlength</h2>
+<label for="Mobile">Enter PRN</label><br>
+<input type="tel" id="Mobile" minlength="10"><br>
+
+
+
+</body>
+</html>

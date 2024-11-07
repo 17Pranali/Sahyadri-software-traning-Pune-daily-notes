@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #022c6c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 5px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            background-image: url('./images/hero_background.jpeg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            padding: 150px 10px;
+            text-align: center;
+            color: white;
+        }
+        .hero-over {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 20px;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: left;
+        }
+        .section h2 {
+            color: #0056b3;
+        }
+        .footer {
+            background-color: #0b5e68;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .contact-info {
+            color: #e63946;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>Our Business Name</div>
+        <div>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="hero-over">
+            <h1>Welcome to Our Business</h1>
+            <p>Your one-stop solution for all your needs.</p>
+            <button style="background-color: #e63946; border: none; padding: 10px 20px; color: white; cursor: pointer;">Get in Touch</button>
+        </div>
+    </div>
+
+    <div id="services" class="section">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of services to help your business grow:</p>
+        <ul style="list-style-type: disc; text-align: left; max-width: 600px; margin: 0 auto;">
+            <li>Consulting Services</li>
+            <li>Professional Training</li>
+            <li>Marketing and Advertising Solutions</li>
+        </ul>
+    </div>
+
+    <div id="about" class="section" style="background-color: #e3e0e0;">
+        <h2>About Us</h2>
+        <p>We are a dedicated team with over 10 years of experience in business development and management. Our mission is to provide high-quality services tailored to each client's unique needs.</p>
+    </div>
+
+    <div id="contact" class="section contact-info">
+        <h2>Contact Us</h2>
+        <p>Phone: 7507244861</p>
+        <p>Email: pranalikshirsagar@gmail.com</p>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 @pk Small Business. All rights reserved.
+    </div>
+</body>
+</html>

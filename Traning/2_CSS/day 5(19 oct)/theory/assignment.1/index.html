@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Internal Css-->
+    
+    <style>
+         p.introduction{
+            color: rgb(243, 244, 240);
+            direction: rtl;
+            unicode-bidi: bidi-override;
+         }/*element.class selector*/
+         body{
+            background-image: url(./images/images.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+         }
+            form{
+            background-color: rgb(213, 206, 206);
+            border: 50px solid #4c2626; 
+            max-width: fit-content;
+            outline-style:double;
+            outline-color: white;
+            margin: 50px;
+            padding: 20px; 
+            color: rgb(9, 9, 21);
+            width: fit-content;
+            border-radius: 12px;
+            box-shadow: 2px 8px 16px rgba(16, 16, 16, 0.1);
+            text-align: left;
+            height:fit-content;
+            font-weight:bold;
+            outline-color: azure;
+            outline-offset: 10px;
+            }/*class selector */
+     
+        /*Universal selector */
+       
+        /* 
+        *{text-align: center;
+            border: 2px solid #722b2b; 
+            padding: 20px; 
+            color: blue;
+            width: fit-content;
+        }
+        */
+    
+       
+        
+        h1{color: rgb(238, 235, 238);
+            text-align: center;}  /* element selector */
+
+         #feedback{color: rgb(234, 56, 56);} /* id selector*/
+
+        
+
+
+    </style>
+
+</head>
+<body>
+    
+    <center>
+        <h1>Personal Information</h1>
+        <div class="introduction" style="color: aliceblue;">
+            <p>Please Enter your Information </p>
+            <p>This Information will be confedential</p>
+        </div>
+
+    <form style="border: 2px solid #722b2b; padding: 10px; color: rgb(6, 6, 12); width: fit-content;"><!--inline css-->
+
+        
+        <label for="first_name">Enter First  name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br><br>
+
+        <label for="last_name">Enter Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br><br>
+
+        <label for="gender">Select Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="male">
+        <label for="female">female</label><br><br>
+
+        <label for="Mobile">Enter Mobile Number:</label><br>
+        <input type="tel" id="Mobile" name="Mobile"><br><br>
+
+        <label for="email">Enter Email Address:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Enter password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50">Write your feedback here...</textarea><br>
+       
+        <br><button type="button" onclick="alert('Your information is Successfully Submitted')" style="color: rgb(242, 247, 242); padding: 5px; background-color: green; width: 70px;">
+            <input type="submit" >
+        </button>
+        
+        <button type="button" onclick="alert('Your information is Reset Successfully')" style="color: rgb(242, 247, 242); padding: 5px; background-color: rgb(42, 24, 98); width: 70px;">
+            <input type="reset" value="Reset" >
+        </button>
+    
+    </form>
+</center>
+</body>
+</html>

@@ -1,0 +1,28 @@
+p {
+    padding: 50px;
+    margin: 50px;
+    text-align: justify;
+    background-color: rgb(49, 38, 102);
+    color: #faf5f5;
+    max-width: 500px; 
+    border-radius: 10px;
+    font-size: 15px;
+    height: 250px;
+
+   
+    border: 15px solid rgb(12, 12, 50); 
+    outline: 4px dashed #22deff;        
+    outline-offset: 8px;             
+}
+
+h1{
+    padding: 15px;
+    background-color: antiquewhite;
+    max-width: 400px;
+    margin: 20px;
+
+    border: 5px solid rgb(12, 12, 50); 
+    outline: 3px dashed #456166;        
+    outline-offset: 5px;                
+}
+

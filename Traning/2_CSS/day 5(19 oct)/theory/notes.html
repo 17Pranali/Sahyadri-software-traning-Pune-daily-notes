@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+ 
+    <link rel="stylesheet" href="style.css"><!--External CSS-->
+
+
+<!-- internal css -->
+    <style>  
+    /*CSS Selectors*/
+
+    p { 
+    color:rgb(240, 28, 173);   /*Element Selector*/
+    }
+
+    #pa1 {  /*The CSS id Selector*/
+    text-align: center;
+    color: rgb(45, 49, 102);
+    }
+
+    .pk { /*The CSS class Selector*/
+    text-align: center;
+    color: red;
+    }
+
+    body{/*CSS Background Image*/
+        background-image: url(./image/download.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    body {/*CSS Background Shorthand*/
+    background: #ffffff url("img_tree.png") no-repeat right top;
+    }
+
+
+    /*CSS Border style*/
+
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+
+
+    /*CSS Border Width*/
+    p.one {
+    border-style: solid;
+    border-width: 5px;
+    }
+
+    p.two {
+    border-style: solid;
+    border-width: medium;
+    }
+
+    p.three {
+    border-style: dotted;
+    border-width: 2px;
+    }
+
+    p.four {
+    border-style: dotted;
+    border-width: thick;
+    }
+
+    p.five {
+    border-style: double;
+    border-width: 15px;
+    }
+
+    p.six {
+     border-style: double;
+    border-width: thick;
+    }
+    /*rounded Border*/
+    p.pranali {
+    border: 2px solid rgb(40, 89, 110);
+    border-radius: 15px;
+    }
+
+    /*CSS margin*/
+    p.kshirsagar {
+    border: 7px solid rgb(40, 89, 110);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    }
+
+    /*CSS short margin*/
+    p.kshirsagar{
+    border: 2px solid rgb(40, 89, 110);
+    margin: 25px 50px 75px;
+    }
+
+    p.pvk{
+     width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+     background-color: lightblue;
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>Css</h1>
+    <h2>Lets learn Css</h2>
+    <p>  by using id Element I am pranali Kshirsagar</p>
+
+    <h1 style="color:blue;text-align:center;">By using Inline CSS : I am Pranali</h1>
+
+    <p id="pa1">by using id selector : My school name is vasantdada patil primary school rahimatpur</p>
+
+    <h1 class="pk">by using class selector</h1>
+    <p class="pk">by using class selector</p>
+
+    <h1 style="background-color:rgb(29, 95, 160); color: aliceblue;">Its about CSS color: Pranali Kshirsagar</h1>
+    <p style="background-color:rgb(170, 40, 17); color: aliceblue;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, natus assumenda saepe impedit esse quibusdam ut quidem minus dignissimos iste. Fuga provident vel sit officia sequi, error iure sunt exercitationem.</p>
+    
+    <h1 style="border:2px solid Tomato;">CSS Border Color: pranali</h1>
+    <h1 style="border:2px solid DodgerBlue;">CSS Border Color: pranali</h1>
+
+    <p class="dotted">Its PK A dotted border.</p>
+    <p class="dashed">Its PK A dashed border.</p>
+    <p class="solid">Its PK A solid border.</p>
+    <p class="double">Its PK A double border.</p>
+    <p class="groove"> Its PK A groove border.</p>
+    <p class="ridge">Its PK A ridge border.</p>
+    <p class="inset">Its PK An inset border.</p>
+    <p class="outset">Its PK An outset border.</p>
+    <p class="none">Its PK No border.</p>
+    <p class="hidden">Its PK A hidden border.</p>
+    <p class="mix">Its PK A mixed border.</p>
+
+
+    <p class="one">Pranali kshirsagar</p>
+    <p class="two">Pranali kshirsagar</p>
+    <p class="three">Pranali kshirsagar</p>
+    <p class="four">Pranali kshirsagar</p>
+    <p class="five">Pranali kshirsagar</p>
+    <p class="six">Pranali kshirsagar</p>
+
+
+    <p class="pranali">Pranali Vikas Kshirsagar</p>
+
+    <p class="kshirsagar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsum ducimus nesciunt, facere nisi minima similique? Ipsum ut excepturi reiciendis. Beatae recusandae earum modi corrupti provident enim sequi, dolores sint.
+    </p>
+
+
+<p class="pvk">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim voluptatibus suscipit impedit, consequuntur debitis minima asperiores ea laboriosam magni perferendis sapiente nesciunt vel tempora illum nemo ut aliquid! Obcaecati, ex!</p>
+
+
+</body>
+</html>
