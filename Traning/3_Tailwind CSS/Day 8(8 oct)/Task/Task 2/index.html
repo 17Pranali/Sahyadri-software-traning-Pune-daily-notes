@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <header class="bg-purple-900 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Pranali's Recipe Book</h1>
+            <nav>
+                <a href="#about" class="px-4">About</a>
+                <a href="#services" class="px-4">Services</a>
+                <a href="#contact" class="px-4">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-black p-20 text-center" style="background-image: url('./images/background.jpeg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <h2 class="text-4xl font-bold ">Welcome to Pranali's Recipe Book</h2>
+        <p class="mt-4">Delivering exceptional services to our clients.</p>
+        <button class="mt-8 bg-blue-700 py-2 px-6 rounded-full hover:bg-blue-800">
+            Get Started
+        </button>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="container mx-auto p-10">
+    <h3 class="text-3xl font-bold mb-4">About Us</h3>
+    <p class="text-gray-700 leading-relaxed">
+        <strong>Welcome to Pranali's Recipe Book!</strong><br><br>
+        At Pranali's Recipe Book, we believe that cooking should be a delightful journey for everyone, whether you're a beginner or a seasoned chef. Our mission is to inspire and empower home cooks by offering a diverse collection of delicious and easy-to-follow recipes that bring joy and flavor to your table.<br><br>
+        
+        Our recipe collection spans various cuisines, including mouth-watering vegetarian, non-vegetarian, and dessert options, carefully curated to suit every taste and dietary need. Each recipe is crafted with love, emphasizing fresh ingredients, step-by-step guidance, and unique tips that make cooking a rewarding experience.<br><br>
+        
+        Join us as we explore the world of food together. Whether you’re looking to whip up a quick meal, impress your guests with gourmet dishes, or satisfy a sweet craving, Pranali’s Recipe Book has something for everyone.<br><br>
+        
+        Let’s cook, create, and celebrate the joy of food together!
+    </p>
+
+    <h4 class="text-2xl font-semibold mt-8 mb-4">Contact Us</h4>
+    <p class="text-gray-700 leading-relaxed">
+        Have any questions or suggestions? We'd love to hear from you! Reach out to us via the following contact details:
+    </p>
+
+    <ul class="list-disc ml-5 text-gray-700">
+        <li><strong>Email:</strong> pranallikshirsagar@gmail.com</li>
+        <li><strong>Phone:</strong> +91 7507244861</li>
+        <li><strong>Address:</strong> 123 Rahimatpur, Koregaon , Satara, Maharashtra, India -415511</li>
+    </ul>
+</section>
+
+
+
+    <!-- Services Section -->
+<section id="services" class="bg-gray-100 p-10">
+    <div class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-4">Our Recipe Categories</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Veg Category -->
+            <div class="bg-white p-6 shadow-md rounded-lg text-center">
+                <img src="./images/veg.jpeg" alt="Veg" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h4 class="text-xl font-semibold mb-2">VEG</h4>
+                <p>Delicious vegetarian recipes to suit every palate.</p>
+            </div>
+            <!-- Non-Veg Category -->
+            <div class="bg-white p-6 shadow-md rounded-lg text-center">
+                <img src="./images/non_veg.jpeg" alt="Non-Veg" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h4 class="text-xl font-semibold mb-2">NON-VEG</h4>
+                <p>Hearty and flavorful non-vegetarian dishes.</p>
+            </div>
+            <!-- Dessert Category -->
+            <div class="bg-white p-6 shadow-md rounded-lg text-center">
+                <img src="./images/dessert.jpeg" alt="Dessert" class="w-full h-40 object-cover rounded-lg mb-4">
+                <h4 class="text-xl font-semibold mb-2">DESSERT</h4>
+                <p>Sweet treats to satisfy your cravings.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto p-10 border-gray-900">
+        <h3 class="text-3xl font-bold mb-4">Contact Us</h3>
+        <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="Name" class="p-2 border border-gray-300 rounded-md">
+            <input type="email" placeholder="Email" class="p-2 border border-gray-300 rounded-md">
+            <textarea placeholder="Message" class="col-span-2 p-2 border border-gray-300 rounded-md"></textarea>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 col-span-2">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-purple-900 text-white p-4 text-center">
+        <p>&copy; 2024 Pranali's Recipe Book. All rights reserved.</p>
+    </footer>
+</body>
+</html>
